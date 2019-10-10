@@ -1,0 +1,215 @@
+* {
+    font-family: 'Cantata One', serif;
+}
+body {
+    background-color: #ffffff;
+}
+
+.breadcrumb {
+    background-color: black; 
+    color: #ffffff;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+.jumbotron {
+    text-align: center;
+    background-color: black; 
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 25px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #1a1a1a;
+    border-color: #ffffff;
+}
+button {
+    background-color: #1a1a1a;
+    border-color: #ffffff;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
+button:hover, .btn-primary:hover {
+    background-color: #e6e6e6;
+    color: #1a1a1a;
+    border-color: #e6e6e6;
+}
+
+.dropdown-menu {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+a {
+    color: #ffffff;
+}
+a:hover {
+    color: #ffffff;
+    background-color: #1a1a1a;
+}    
+
+.mainPageImages:hover {
+    opacity: .75;
+}
+
+#cocktailNameInput {
+    height: 48px;
+}
+
+#cocktailSearchByType, #cocktailSearchByName{
+    margin-top: 25px;
+}
+
+.form-control:hover {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.main-links:hover {
+   font-weight: bold;
+   cursor:pointer;
+}
+
+.recipeCard, .cocktailCard {
+    display: inline-block;
+    margin: 5px;
+    border-radius: 2px;
+    border-width:1px;
+    border-color: #1a1a1a;  
+    border-style:solid;
+}
+
+.recipeImgCard, .cocktailImgCard {
+   height: 300px;
+   width: 300px;
+   border-radius: 2px;
+}
+.recipeImgCard:hover, .cocktailImgCard:hover {
+    opacity: .75;
+}
+.recipeNameCard:hover, .cocktailNameCard:hover{
+    font-weight: bold;
+    cursor:pointer;
+}
+
+#searchByMainIngredient{
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+.recipeImgFullCard{
+float: left;
+height: 600px;
+width: 600px;
+margin: auto;
+margin-bottom: 20px;
+}
+.cocktailImgFullCard {
+    float: left;
+    height: 500px;
+    width: 500px;
+    margin: auto; 
+    margin-bottom: 20px;  
+}
+.instructionsFullCard, .cocktailinstructionsFullCard{
+    text-align: center;
+    clear: both;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    border-width:3px;  
+    border-style:solid;
+    border-color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.box {
+    background-color: black;
+    height: 500px;
+    margin: 50px;
+    padding: 200px 0;
+    text-align: center;
+    position: relative;
+}
+
+#ageText {
+    color: white;
+    text-align: center;
+}
+
+#dobDay {
+    width: 120px;
+    height: 120px;
+    font-size: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+}
+
+#dobMonth {
+    width: 120px;
+    height: 120px;
+    font-size: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+}
+
+#dobYear {
+    width: 120px;
+    height: 120px;
+    font-size: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+}
+
+#ageUnder {
+    color: #b30000;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Black Han Sans', sans-serif;
+
+}
+
+#validText {
+    color: #b30000;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.fullCard{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.cocktailFullCard, .recipeFullCard {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #1a1a1a;
+    width: 90%;
+    margin: auto;
+}
+.header {
+    width: 80%;
+    margin: auto;
+}
+.card-group {
+    margin: auto;
+    text-align: center;
+}
